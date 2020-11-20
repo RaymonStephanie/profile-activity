@@ -1,0 +1,11 @@
+body {
+  border: solid;
+  border-radius: 16px;
+  background-color: darkslateblue;
+  color: pink;
+  text-align: center;
+}
+
+.link {
+  color: deeppink;
+}
