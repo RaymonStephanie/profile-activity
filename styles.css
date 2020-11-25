@@ -1,5 +1,5 @@
 body {
-  border: solid;
+  border: double;
   border-radius: 16px;
   background-color: darkslateblue;
   color: pink;
@@ -9,3 +9,11 @@ body {
 .link {
   color: deeppink;
 }
+
+h1 {
+  color: deeppink;
+}
+
+.menu {}
+
+.header {}
