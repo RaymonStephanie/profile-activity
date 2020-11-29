@@ -1,8 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   border: double;
   border-radius: 16px;
-  background-color: darkslateblue;
-  color: pink;
+  background-image: url(images/bg.png);
+  color: rgba(89, 155, 155, 1);
   text-align: center;
 }
 
@@ -22,7 +27,13 @@ h1 {
 }
 
 .item {
-  flex-grow: 400;
+  border: #222222;
+  border-radius: 16px;
+  flex-grow: 40;
+}
+
+.item1 {
+  flex-grow: 20;
 }
 
 .header {
@@ -39,5 +50,4 @@ h1 {
 
 .footer {
   display: flex;
-  flex-direction: column-reverse;
 }
